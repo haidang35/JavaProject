@@ -4,7 +4,7 @@ import java.lang.Math;
 public class Tamgiac {
 
       void CheckTamGiac(int a,int b, int c){
-          if(a+b>c && a+c>b && b+c>a){
+          if(a>0 && b>0 && c>0 && a+b>c && a+c>b && b+c>a){
               System.out.println(a + "," + b +","+ c +" La 3 canh cua tam giac");
           }else{
               System.out.println(a + "," + b +","+ c + " Khong phai la 3 canh cua mot tam giac");
